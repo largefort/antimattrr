@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antimatter Tycoon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Antimatter Tycoon</h1>
+        <p>Antimatter: <span id="antimatter">0</span></p>
+        <button id="harvestButton">Harvest Antimatter</button>
+        <div id="buildings">
+            <h2>Buildings</h2>
+            <div class="building" data-cost="10" data-production="1">
+                <p>Small Collider - Cost: 10 Antimatter, Produces 1/s</p>
+                <button class="buyButton">Buy</button>
+            </div>
+            <div class="building" data-cost="100" data-production="10">
+                <p>Large Collider - Cost: 100 Antimatter, Produces 10/s</p>
+                <button class="buyButton">Buy</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
